@@ -64,8 +64,8 @@ const Hero = () => {
           className="relative w-full md:mt-[40px] -mt-[12px] flex justify-center items-center"
         >
           <img
-            src="/empty-icon.png"
-            alt="empty icon"
+            src="/metaverse-next-icon.png"
+            alt="metaverse next icon"
             className="h-[200px] sm:h-[300px] md:h-[350px] object-cover z-10 relative"
           />
         </motion.div>
