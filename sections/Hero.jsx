@@ -1,13 +1,14 @@
-"use client";
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
-import { useState, useEffect } from "react";
+'use client';
+
+import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
+import styles from '../styles';
+import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const textArray = [
-  { title: "World", color: "rgb(30, 142, 62)" },
-  { title: "Land", color: "rgb(26, 115, 232)" },
-  { title: "Space", color: "#fff" },
+  { title: 'World', color: 'rgb(30, 142, 62)' },
+  { title: 'Land', color: 'rgb(26, 115, 232)' },
+  { title: 'Space', color: '#fff' },
 ];
 
 const Hero = () => {
@@ -60,7 +61,7 @@ const Hero = () => {
           ></motion.div>
         </div>
         <motion.div
-          variants={slideIn("right", "tween", 0.2, 1)}
+          variants={slideIn('right', 'tween', 0.2, 1)}
           className="relative w-full md:mt-[40px] -mt-[12px] flex justify-center items-center"
         >
           <img
